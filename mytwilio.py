@@ -9,8 +9,8 @@ if number%2 == 0 and number%4 !=0:
 else:
     print("Odd")
 
-Write a program that displays all prime numbers between 1 and 6,000.
-Hint: A prime number is a number that is divisible by ONLY 1 and itself.
+# Write a program that displays all prime numbers between 1 and 6,000.
+# Hint: A prime number is a number that is divisible by ONLY 1 and itself.
 
 nums = list(range(0,20))
 
