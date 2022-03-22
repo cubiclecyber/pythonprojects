@@ -66,35 +66,35 @@ else:
 
 
 
-# # TASK 10: Using Python or PHP or Java or Ruby or JavaScript
-# # Write a program that prompts the user to enter the base and height of a triangle and returns its area.
-# # Once you learn fun 
-# base = float(input("Enter the base of the triangle :"))
-# height = float(input("Enter the height of the triangle :"))
-# area = 1/2 * base * height
-# print ("Area =",area)
+# TASK 10: Using Python or PHP or Java or Ruby or JavaScript
+# Write a program that prompts the user to enter the base and height of a triangle and returns its area.
+# Once you learn fun 
+base = float(input("Enter the base of the triangle :"))
+height = float(input("Enter the height of the triangle :"))
+area = 1/2 * base * height
+print ("Area =",area)
 
-# TASK 11: Using Python or PHP or Java or Ruby or JavaScript
-# Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
-# # For example, if the speed is 80, it should print: "Points: 2". If the driver gets more than 12 points, the function should print: "License suspended".
-# speed = int(input("Enter the speed in Km/s :"))
-# demerit = (speed-70)/5
-# status=""
-# if demerit<=0 :
-#     status ="Okay"
-# elif demerit <12 and demerit>0 :
-#     status ="Points :", str(demerit)
-# elif demerit>=12:
-#     print("Your licence has been terminated!!")
+TASK 11: Using Python or PHP or Java or Ruby or JavaScript
+Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print "Ok". Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+# For example, if the speed is 80, it should print: "Points: 2". If the driver gets more than 12 points, the function should print: "License suspended".
+speed = int(input("Enter the speed in Km/s :"))
+demerit = (speed-70)/5
+status=""
+if demerit<=0 :
+    status ="Okay"
+elif demerit <12 and demerit>0 :
+    status ="Points :", str(demerit)
+elif demerit>=12:
+    print("Your licence has been terminated!!")
 
 
-# Write a program called stars.py. It should prompt the user for a number, and it should print the number of stars till the number entered.
-# Example If rows is 5, it should print the following:
-# *
-# **
-# ***
-# ****
-# *****.
+Write a program called stars.py. It should prompt the user for a number, and it should print the number of stars till the number entered.
+Example If rows is 5, it should print the following:
+*
+**
+***
+****
+*****.
 rows = int(input("How many rows do you want: "))
 for i in range(rows):
     for j in range (i+1):
